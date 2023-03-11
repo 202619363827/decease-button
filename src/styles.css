@@ -1,0 +1,29 @@
+.buttons {
+    display:flex;
+    justify-content: center;
+  }
+  
+  .increase-btn,
+  .decrease-btn {
+    background-color: #c0c4cd;
+    color: #fff;
+    padding: 8px 10px;
+    border-radius: 16px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    font-size: 26px;
+    margin: 0 16px;
+    
+  }
+  
+  .increase-btn:hover {
+    background-color: #4169e1;
+  }
+  
+  .decrease-btn:hover {
+    background-color: #ff6347;
+    justify-content: center;
+    text-align: center;
+  }
+  
